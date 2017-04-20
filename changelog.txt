@@ -1,5 +1,5 @@
 =================================
-Changelog as of 7:44 AM 4/20/2017
+Changelog as of 1:39 PM 4/20/2017
 =================================
 
 ======
@@ -30,12 +30,13 @@ FIXED:
 ============
 IN PROGRESS:
 ============
--- Nothing yet as I just finished ElwynnForest.lua. I'll start on Teldrassil later today. (4/20)
+-- 002_Teldrassil.lua
+	- Finished modifying the 1-6 part of the guide.
+	- Need to work on the 6-12.
 
 ======
 TO DO:
 ======
--- 002_Teldrassil.lua
 -- 003_Alliance_12to20.lua
 -- 003_Alliance_20to30.lua
 -- 003_Alliance_30to40.lua
