@@ -1,0 +1,40 @@
+=================================
+Changelog as of 7:44 AM 4/20/2017
+=================================
+
+======
+NOTES:
+======
+-- Upon looking further into it, Horde is all formatted properly for some reason while Alliance is not.
+-- So, starting with Elwynn Forest I will systematically rewrite the guide. 
+-- I will use this file in order to keep track of what I have done, what needs to be done, and any other changes made.
+
+======
+FIXED:
+======
+-- 001_Introduction.lua
+	- Rewrote the whole thing, shrinking it to a singular string.
+	- More tidy in my opinion, easier on the eyes and conveys the features of the guide better.
+	- Reworded the credits.
+-- 002_DunMorogh.lua 
+	- Fixed many grammar and spelling errors.
+	- Added color coded instructions throughout the guide.
+	- Added proper punctuation.
+	- Reworded some instructions to be more clear.
+
+============
+IN PROGRESS:
+============
+-- 002_ElwynnForest.lua
+	- Rewrote the first few lines, adding proper punctuation.
+	- Added in color codes for the first few lines.
+
+======
+TO DO:
+======
+-- 002_Teldrassil.lua
+-- 003_Alliance_12to20.lua
+-- 003_Alliance_20to30.lua
+-- 003_Alliance_30to40.lua
+-- 003_Alliance_40to50.lua
+-- 003_Alliance_50to60.lua
