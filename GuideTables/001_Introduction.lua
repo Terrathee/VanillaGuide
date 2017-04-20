@@ -26,7 +26,7 @@ Table_001_Introduction = {
         --pID = 1, nID = 11,
         --itemCount = 1,
         items = {
-            [1] = { str = "Thank you for using #VIDEOVanilla#Guide!\nThis guide was written by #DOQUESTmrmr# and updated by #ACCEPTTerrathee#.\n\nVersion: #VIDEOv##TURNIN".. version .."#\n\nThis guide was originally created by #VIDEOJoana#, but has grown larger thanks to the help of #DOQUESTBrianKopps#, #DOQUESTKira#, #DOQUESTCdlp#, and #DOQUESTVelenran#.\n\nThe colors used in the guide are as follows:\n\n#ACCEPT   - Accept a quest.#\n#DOQUEST   - Go do a quest.#\n#NPC   - General use for NPC or items to pay attention to.#\n\nThis guide features the ability to bind the #VIDEO'Previous'# and #VIDEO'Next'# steps of the guides. You can find these within the keybindings menu.\n\nHave fun!" },
+            [1] = { str = "Thank you for using #VIDEOVanilla#Guide!\nThis guide was written by #DOQUESTmrmr# and updated by #ACCEPTTerrathee#.\n\nVersion: #VIDEOv##TURNIN".. version .."#\n\nThis guide was originally created by #VIDEOJoana#, but has grown larger thanks to the help of #DOQUESTBrianKopps#, #DOQUESTKira#, #DOQUESTCdlp#, and #DOQUESTVelenran#.\n\nThe colors used in the guide are as follows:\n\n#ACCEPT   - Accept a quest.#\n#DOQUEST   - Go do a quest.#\n#TURNIN   - Turn in a quest.#\n#NPC   - General use for NPC or items to pay attention to.#\n\nThis guide features the ability to bind the #VIDEO'Previous'# and #VIDEO'Next'# steps of the guides. You can find these within the keybindings menu.\n\nHave fun!" },
         }
     },
 
