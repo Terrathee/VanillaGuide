@@ -21,13 +21,16 @@ FIXED:
 	- Added color coded instructions throughout the guide.
 	- Added proper punctuation.
 	- Reworded some instructions to be more clear.
+-- 002_ElwynnForest.lua
+	- Luckily, most of the quests were written decently and didn't need too much rewriting.
+	- Added color coding to the quest guide. 
+	- Punctuation was missing mostly, so added that in as well.
+	- Removed unnecessary steps.
 
 ============
 IN PROGRESS:
 ============
--- 002_ElwynnForest.lua
-	- Rewrote the first few lines, adding proper punctuation.
-	- Added in color codes for the first few lines.
+-- Nothing yet as I just finished ElwynnForest.lua. I'll start on Teldrassil later today. (4/20)
 
 ======
 TO DO:
