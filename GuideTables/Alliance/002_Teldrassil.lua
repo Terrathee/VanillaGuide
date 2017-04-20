@@ -1,7 +1,8 @@
 --[[--------------------------------------------------
 002_Teldrassil.lua
 Authors: mrmr
-Version: 1.04.2
+Editor: Terrathee
+Version: 1.04.3
 ------------------------------------------------------
 Description: Guide Serie - 002 Teldrassil
     1.04.1
@@ -10,6 +11,8 @@ Description: Guide Serie - 002 Teldrassil
             from level 1 to lever 12
     1.04.2
     	-- no changes in here for this revision
+    1.04.3
+      -- Finished the 1-6 guide update.
 ------------------------------------------------------
 Connection:
 --]]--------------------------------------------------
@@ -24,25 +27,25 @@ Table_002_Teldrassil = {
 		--itemCount = 20,
 		items = {
 			[1] = { str = "1-6 Teldrassil" },
-			[2] = { str = "Accept The Balance of Nature pt.1 at 58,44 and go do it by killing mobs at 57,45 and 61,43. Turn it in at 58,44.", x = 58, y = 44, zone = "Teldrassil" },
-			[3] = { str = "Accept  The Balance of Nature pt.2 and  Etched Sigil  at 58,44.  The Woodland Protector pt.1  at 59,42 and  A Good Friend  at 60,41.", x = 59, y = 42, zone = "Teldrassil" },
-			[4] = { str = "Hand in  The Woodland Protector pt.1  at 57,45 and accept  The Woodland Protector pt.2  Mobs are at 56,46. Turn it in at 57,45.", x = 56, y = 46, zone = "Teldrassil" },
-			[5] = { str = "Accept  Webwood Venom  at 57,41.", x = 57, y = 41, zone = "Teldrassil" },
-			[6] = { str = "Run up the ramp to the top of the tree, turn in  Etched Sigil  at 58,40 (hunter trainer) and get beast tracking.", x = 58, y = 40, zone = "Teldrassil" },
-			[7] = { str = "Jump down and go do the following The Balance of Nature pt.2  mobs are all around 60,35", x = 60, y = 35, zone = "Teldrassil" },
-			[8] = { str = "Webwood Venom  at 57,32 in and outside the cave.", x = 57, y = 32, zone = "Teldrassil" },
-			[9] = { str = "Turn in  A Good Friend  at 54,32 in a cove just west of the cave. Accept  A Friend in Need .", x = 54, y = 32, zone = "Teldrassil" },
-			[10] = { str = "Turn in  Webwood Venom  at 57,41. Accept  Webwood Egg .", x = 57, y = 41, zone = "Teldrassil" },
-			[11] = { str = "Turn in  The Balance of Nature pt.2  at 58,44", x = 58, y = 44, zone = "Teldrassil" },
-			[12] = { str = "Turn in  A Friend in Need  at 60,41, accept  Iverron's Antidote pt.1", x = 60, y = 41, zone = "Teldrassil" },
+			[2] = { str = "Accept #ACCEPT'The Balance of Nature pt.1'# at 58,44 and go do it by #NPCkilling mobs# at 57,45 and 61,43. #TURNIN'Turn it in# at 58,44.", x = 58, y = 44, zone = "Teldrassil" },
+			[3] = { str = "Accept #ACCEPT'The Balance of Nature pt.2'# and  #ACCEPT'Etched Sigil'#  at 58,44.  Walk towards 59,42 and accept #ACCEPT'Woodland Protector pt.1'# and head even further to 60,41 to finally grab #ACCEPT'A Good Friend,'#", x = 59, y = 42, zone = "Teldrassil" },
+			[4] = { str = "Hand in #TURNIN'The Woodland Protector pt.1'#  at 57,45 and accept #ACCEPT'The Woodland Protector pt.2.'# Mobs are located at 56,46. #NPCKill them# and go back to #TURNINturn it in# at 57,45.", x = 56, y = 46, zone = "Teldrassil" },
+			[5] = { str = "Accept #ACCEPT'Webwood Venom'# at 57,41.", x = 57, y = 41, zone = "Teldrassil" },
+			[6] = { str = "Run up the ramp to the top of the tree, turn in #TURNIN'Etched Sigil.'# Head to your #NPCclass trainer# and train.", x = 58, y = 40, zone = "Teldrassil" },
+			[7] = { str = "Jump down and go do #DOQUEST'The Balance of Nature pt.2,'# the #NPCmobs# are located around 60,35.", x = 60, y = 35, zone = "Teldrassil" },
+			[8] = { str = "Complete #DOQUEST'Webwood Venom'# by heading to 57,32. You will be going in and outside the cave, #NPCkilling mobs#.", x = 57, y = 32, zone = "Teldrassil" },
+			[9] = { str = "Turn in #TURNIN'A Good Friend'# at 54,32 in a cove just west of the cave. Accept #ACCEPT'A Friend in Need.'#", x = 54, y = 32, zone = "Teldrassil" },
+			[10] = { str = "Turn in #TURNIN'Webwood Venom'# at 57,41. Accept #ACCEPT'Webwood Egg.'#", x = 57, y = 41, zone = "Teldrassil" },
+			[11] = { str = "Turn in #TURNIN'The Balance of Nature pt.2'# at 58,44.", x = 58, y = 44, zone = "Teldrassil" },
+			[12] = { str = "Turn in #TURNIN'A Friend in Need'# at 60,41, accept #ACCEPT'Iverron's Antidote pt.1.'#", x = 60, y = 41, zone = "Teldrassil" },
 			[13] = { str = "Iverron's Antidote pt.1  (lilies and mushrooms) around 57,37.", x = 57, y = 37, zone = "Teldrassil" },
-			[14] = { str = "Iverron's Antidote pt.1  (ichor) in the cave 57,32 along with  Webwood Egg  at 56,26", x = 57, y = 32, zone = "Teldrassil" },
-			[15] = { str = "Turn in  Webwood Egg  at 57,41 Accept  Tenaron's Summons  then Run up the ramp to the top of the tree and hand it in at 59,39. Accept  Crown of the Earth pt.1 ", x = 57, y = 41, zone = "Teldrassil" },
-			[16] = { str = "Turn in  Iverron's Antidote pt.1  accept  Iverron's Antidote pt.2 ." },
-			[17] = { str = "Do   Crown of the Earth pt.1  at 59,32", x = 59, y = 32, zone = "Teldrassil" },
-			[18] = { str = "Turn in  Iverron's Antidote pt.2  at 54,32", x = 54, y = 32, zone = "Teldrassil" },
-			[19] = { str = "Turn in  Crown of the Earth pt.1  at 59,39 Accept  Crown of the Earth pt.2 ", x = 59, y = 39, zone = "Teldrassil" },
-			[20] = { str = "If you’re not level 6 yet, you should be close. Level and get skills. Head towards Dolanaar" },
+			[14] = { str = "Complete #DOQUEST'Iverron's Antidote pt.1'# by collecting ichor from the #NPCmobs# throughout the cave 57,32. You'll have to head further in to get #NPCan egg# for #DOQUEST'Webwood Egg.'# It is located at 56,26.", x = 57, y = 32, zone = "Teldrassil" },
+			[15] = { str = "Turn in #TURNIN'Webwood Egg'# at 57,41 and accept #ACCEPT'Tenaron's Summons,'# then run up the ramp to the top of the tree. You'll #TURNINhand it in# at 59,39. Accept #ACCEPT'Crown of the Earth pt.1.'#", x = 57, y = 41, zone = "Teldrassil" },
+			[16] = { str = "Turn in #TURNIN'Iverron's Antidote pt.1'# and accept #ACCEPT'Iverron's Antidote pt.2.'#" },
+			[17] = { str = "Do #DOQUEST'Crown of the Earth pt.1'# which is located at 59,32.", x = 59, y = 32, zone = "Teldrassil" },
+			[18] = { str = "Turn in #TURNIN'Iverron's Antidote pt.2'#  at 54,32.", x = 54, y = 32, zone = "Teldrassil" },
+			[19] = { str = "Turn in #TURNIN'Crown of the Earth pt.1'# at 59,39. Accept #ACCEPT'Crown of the Earth pt.2.'#", x = 59, y = 39, zone = "Teldrassil" },
+			[20] = { str = "If you’re not level 6 yet, you should be close. Grind out that last bit left and get skills then head towards Dolanaar" },
 		}
 	},
 
