@@ -1,21 +1,23 @@
 --[[--------------------------------------------------
 002_DunMorogh.lua
 Authors: mrmr
-Version: 1.04.4
+Editor: Terrathee
+Version: 1.04.5
 Date: 4/20/17
 ------------------------------------------------------
 Description: Guide Serie - 002 DunMorogh
-
     1.04.3
         -- Fixed spelling errors along with grammar.
         -- Edited some steps to remove redundancy.
-    1.04.4   
+    1.04.4    
         -- Edited so that quests use color codes for
            their accept/do/turn in states.
         -- Fixed an error that wouldn't allow the 
            GuideTable to pull data from DunMorogh.lua.
         -- Some grammar and spelling fixes I made 
            myself. Will do a second pass later.
+    1.04.5
+        -- Listed myself as an editor in the header.
 ------------------------------------------------------
 Connection:
 --]]--------------------------------------------------
