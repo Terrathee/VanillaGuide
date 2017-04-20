@@ -1,7 +1,7 @@
 --[[--------------------------------------------------
 001-Introduction.lua
 Authors: mrmr
-Version: 1.04.3
+Editor: Terrathee
 ------------------------------------------------------
 Description: Guide Serie - 001 Introduction
     1.04.1
@@ -10,7 +10,9 @@ Description: Guide Serie - 001 Introduction
     1.04.2
         -- no changes in here for this revision
     1.04.3
-        -- Changed the introduction. 
+        -- Changed the introduction.
+    1.04.4
+        -- Added myself as an editor in the header.
 ------------------------------------------------------
 Connection:
 --]]--------------------------------------------------
