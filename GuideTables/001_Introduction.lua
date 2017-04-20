@@ -2,6 +2,7 @@
 001-Introduction.lua
 Authors: mrmr
 Editor: Terrathee
+Version: 1.04.4
 ------------------------------------------------------
 Description: Guide Serie - 001 Introduction
     1.04.1
