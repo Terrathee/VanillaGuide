@@ -8,7 +8,7 @@ Description: Guide Serie - 002 DunMorogh
 
     1.04.3
         -- Fixed spelling errors along with grammar.
-        -- Edited some steps to remove redundancy.
+        -- Edited some steps to remove redundancy. 
     1.04.4   
         -- Edited so that quests use color codes for
            their accept/do/turn in states.
