@@ -5,12 +5,11 @@ Version: 1.04.4
 Date: 4/20/17
 ------------------------------------------------------
 Description: Guide Serie - 002 DunMorogh
-    1.04.1
-@@ -14,127 +15,129 @@ Description: Guide Serie - 002 DunMorogh
+
     1.04.3
         -- Fixed spelling errors along with grammar.
         -- Edited some steps to remove redundancy.
-        
+    1.04.4   
         -- Edited so that quests use color codes for
            their accept/do/turn in states.
         -- Fixed an error that wouldn't allow the 
